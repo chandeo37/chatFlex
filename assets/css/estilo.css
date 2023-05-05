@@ -1,0 +1,170 @@
+#principal{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    justify-content: space-between;
+
+}
+
+#cabecera{
+    background-color: aqua;
+}
+
+#ladoIzquierdo{
+    background-color: green;
+    width: 28%;
+    font-size: 45px;
+    padding: 15px;
+    border: 5px white double;
+   
+    margin: 10px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+#contenedorChats{
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+
+#contenedorChats > div{
+    background-color: aliceblue;
+    border: 2px goldenrod solid;
+}
+*/
+
+.contenedorDatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 1px black solid;
+   
+}
+.contenedorDatos > div{
+    background-color: aliceblue;
+    /*border: 2px goldenrod solid;*/
+    font-size: 12px;
+}
+.contendorImagenes{
+    width: 20%;
+}
+.imagenes{
+    width: 70%;
+    border-radius: 80px;
+}
+
+.imagenesConversacion{
+    width: 80%;
+    border-radius: 90%;
+}
+
+
+#ladoDerecho{
+    background-color: aquamarine;
+    width: 68%;
+    font-size: 45px;
+    padding: 15px;
+    border: 5px white double;
+    margin: 10px;
+    
+    margin-right: 15%;
+    margin-top: 5%;
+}
+#tituloChat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    padding: 7px;
+}
+#tituloChat > div{
+    background-color: rgb(213, 202, 224);
+}
+
+#chatGeneral{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: 2px rgb(120, 187, 214) ;
+    padding: 7px;
+
+}
+
+#chatGeneral > div{
+    background-color: aliceblue ;
+    border: 2px goldenrod solid;
+   
+}
+
+.contenedorConversacionEntrada{
+    display: flex;
+    background-color: orange;
+    padding: 7px;
+}
+#contenedorConversacionSalida{
+    display: flex;
+    background-color: rgb(196, 231, 39);
+    padding: 7px;
+    flex-direction: row-reverse;
+
+}
+.contenedorImagenesConversacion{
+    width: 20%;
+}
+
+
+.contenedorConversacionEntrada > div{
+    background-color: olive;
+    /*border: 1px black solid;*/
+}
+
+.contenidoChat{
+    background-color: aqua;
+    padding: 7px;
+    border: 2px brown solid;
+}
+
+.conversacion{
+    font-size: 12px;
+}
+
+.horaConversacion{
+    font-size: 7px;
+}
+.cabecera__contenedorLista {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .cabecera__lista {
+    display: inline-block;
+    
+  }
+
+  .cabecera__lista__elemento {
+    display: inherit;
+    
+  }
+  
+.nombrechat{
+    padding-top: 50px;
+}
+.fecha{
+    padding-top: 50px;
+}
+
+.cabecera__lista__elemento:hover{
+    background: #3ead47;
+    color: white;
+}
+
+
+
+
+
+
